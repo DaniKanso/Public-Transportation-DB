@@ -3,7 +3,7 @@ from geopy.distance import geodesic
 import psycopg2
 import time
 
-conn = psycopg2.connect(database = 'BusTransportationSystem', user = 'postgres', password='0000', host='127.0.0.1', port='5432')
+conn = psycopg2.connect(database = '', user = 'postgres', password='', host='127.0.0.1', port='5432')
 cur = conn.cursor() 
 #cur.execute()  conn.commit()   
 
